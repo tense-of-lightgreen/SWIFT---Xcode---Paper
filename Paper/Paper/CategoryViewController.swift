@@ -15,7 +15,9 @@ class CategoryViewController: UIViewController {
     @IBOutlet weak var categoryView2: UIView!
     @IBOutlet weak var categoryView3: UIView!
     @IBOutlet weak var categoryView4: UIView!
-    
+    @IBOutlet weak var detailSearchView: UIView!
+    @IBOutlet weak var fillUp: UIButton!
+    @IBOutlet weak var detailSearchButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +27,8 @@ class CategoryViewController: UIViewController {
         self.categoryView2.alpha = 0
         self.categoryView3.alpha = 0
         self.categoryView4.alpha = 0
+        self.detailSearchView.alpha = 0
+        self.fillUp.alpha = 0
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -67,6 +71,27 @@ class CategoryViewController: UIViewController {
             self.categoryView4.alpha = 1
         }
     }
+    
+    @IBAction func detailSearch(_ sender: Any) {
+        
+        self.detailSearchView.alpha = 1
+        self.fillUp.alpha = 1
+        self.detailSearchButton.alpha = 0
+        
+        /* self.categoryView1.alpha = 0
+        self.categoryView2.alpha = 0
+        self.categoryView3.alpha = 0
+        self.categoryView4.alpha = 0 */
+    }
+    
+    @IBAction func fillUpAction(_ sender: Any) {
+        self.detailSearchView.alpha = 0
+        self.fillUp.alpha = 0
+        self.detailSearchButton.alpha = 1
+        
+    }
+    
+    
     
 }
 
