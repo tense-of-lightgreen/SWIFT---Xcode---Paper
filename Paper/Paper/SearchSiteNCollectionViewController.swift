@@ -27,6 +27,7 @@ class SearchSiteNCollectionViewController: UIViewController, UICollectionViewDat
         
         self.SiteN1.alpha = 1
         self.SiteN2.alpha = 0
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -57,6 +58,7 @@ class SearchSiteNCollectionViewController: UIViewController, UICollectionViewDat
         if(indexPath.item == 0)
         {
             self.SiteN1.alpha = 1
+            
             self.SiteN2.alpha = 0
         }
             
