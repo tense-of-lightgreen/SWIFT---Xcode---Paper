@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dzk-sa-1TU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dzk-sa-1TU">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-<<<<<<< HEAD
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-=======
->>>>>>> origin/master
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -620,19 +616,6 @@
             </objects>
             <point key="canvasLocation" x="1913" y="124"/>
         </scene>
-<<<<<<< HEAD
-        <!--Navigation Controller-->
-        <scene sceneID="j6x-7g-xrX">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rYG-qg-mGp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="search" id="Fkq-OQ-4gl"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3kY-NT-7vp">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-=======
         <!--Search Paper-->
         <scene sceneID="TUR-Ko-H0Q">
             <objects>
@@ -721,7 +704,6 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Search Paper" id="Wkb-Wb-cDf"/>
->>>>>>> origin/master
                     <connections>
                         <outlet property="SiteK1" destination="8gy-BT-d0u" id="dXA-3H-0oG"/>
                         <outlet property="SiteK2" destination="YEf-rB-Usx" id="f0o-bH-Ywr"/>
@@ -999,13 +981,8 @@
             <objects>
                 <viewController title="MyTopic" id="28e-9z-gHd" sceneMemberID="viewController">
                     <layoutGuides>
-<<<<<<< HEAD
-                        <viewControllerLayoutGuide type="top" id="vwA-Bq-2ra"/>
-                        <viewControllerLayoutGuide type="bottom" id="9sD-pP-MXG"/>
-=======
                         <viewControllerLayoutGuide type="top" id="vsR-bo-Dgl"/>
                         <viewControllerLayoutGuide type="bottom" id="O5T-Lw-FGW"/>
->>>>>>> origin/master
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RuU-2j-kkt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="460"/>
